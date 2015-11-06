@@ -1,6 +1,11 @@
 // Assembles your email content with HTML layout
+
 module.exports = {
   options: {
+    // engine: 'assemble-liquid',
+    // initializeEngine: function (engine, options)  {
+    //   engine.engine.swig.init(options);
+    // }
     layoutdir: '<%= paths.src %>/layouts',
     partials: ['<%= paths.src %>/partials/**/*.hbs'],
     helpers: ['<%= paths.src %>/helpers/**/*.js'],
